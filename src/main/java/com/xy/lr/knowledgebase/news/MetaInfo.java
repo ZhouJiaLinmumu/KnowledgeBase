@@ -8,6 +8,7 @@ import java.util.Iterator;
  * Created by xylr on 16-3-4.
  */
 public class MetaInfo {
+    private int id;
     private String newsHost;
     private String newsDate;
     private String newsURL;
