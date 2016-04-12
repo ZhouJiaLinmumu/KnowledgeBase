@@ -1,20 +1,14 @@
 package com.xy.lr.knowledgebase.news;
 
 import com.xy.lr.java.nlp.stopwords.StopWords;
-import com.xy.lr.java.simhash.ChineseInfoWordSeg;
-import com.xy.lr.java.simhash.Simhash;
 import com.xy.lr.java.tools.file.FindAllFileOnCatalogue;
-import com.xy.lr.java.tools.file.GetFileSize;
 import com.xy.lr.java.tools.file.JFile;
-import com.xy.lr.knowledgebase.mysql.MySQLUtil;
-import org.dom4j.DocumentException;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.jar.Pack200;
 
 /**
  * Created by xylr on 16-3-4.
